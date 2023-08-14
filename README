@@ -39,7 +39,6 @@ Clona este repositorio en tu máquina local:
     cd ../backend-laravel
     php artisan serve
 
-
 2. Inicia el servidor frontend:
 
     cd ../frontend-vue
@@ -52,4 +51,3 @@ Clona este repositorio en tu máquina local:
 2. Ejecuta las pruebas unitarias con el comando:
 
     npm run test
-
