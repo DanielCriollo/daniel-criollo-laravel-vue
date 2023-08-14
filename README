@@ -1,0 +1,55 @@
+# Sistema de Gestión de Inmuebles
+
+Este repositorio contiene el código fuente de un sistema de gestión de inmuebles desarrollado con Laravel (backend) y Vue.js (frontend).
+
+## Requisitos Previos
+
+Asegúrate de tener instalados los siguientes componentes en tu sistema:
+
+- [Node.js](https://nodejs.org/) (versión recomendada)
+- [Composer](https://getcomposer.org/)
+- [Git](https://git-scm.com/)
+
+## Instalación
+
+Sigue los siguientes pasos para instalar y ejecutar el sistema:
+
+Clona este repositorio en tu máquina local:
+
+   ```sh
+   git clone https://github.com/DanielCriollo/daniel-criollo-laravel-vue.git
+
+1. Accede al directorio del backend (Laravel) y realiza los siguientes pasos:
+
+    cd tu-repositorio/backend
+    composer install
+    cp .env.example .env
+    php artisan key:generate
+    php artisan migrate
+    php artisan db:seed
+
+2. Accede al directorio del frontend (Vue.js) y realiza los siguientes pasos:
+
+    cd ../frontend
+    npm install
+
+### Ejecución
+
+1. Inicia el servidor backend:
+
+    cd ../backend-laravel
+    php artisan serve
+
+
+2. Inicia el servidor frontend:
+
+    cd ../frontend-vue
+    npm run serve
+
+##Ejecutar Pruebas Unitarias backend Laravel
+
+1. Accede al directorio del backend (Laravel):
+
+2. Ejecuta las pruebas unitarias con el comando:
+
+    npm run test
