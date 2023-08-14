@@ -16,7 +16,6 @@ Sigue los siguientes pasos para instalar y ejecutar el sistema:
 
 Clona este repositorio en tu máquina local:
 
-   ```sh
    git clone https://github.com/DanielCriollo/daniel-criollo-laravel-vue.git
 
 1. Accede al directorio del backend (Laravel) y realiza los siguientes pasos:
@@ -53,3 +52,4 @@ Clona este repositorio en tu máquina local:
 2. Ejecuta las pruebas unitarias con el comando:
 
     npm run test
+
