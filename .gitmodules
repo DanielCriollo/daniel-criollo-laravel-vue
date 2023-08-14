@@ -1,0 +1,3 @@
+[submodule "daniel-criollo-laravel-vue"]
+	path = daniel-criollo-laravel-vue
+	url = https://github.com/DanielCriollo/daniel-criollo-laravel-vue
